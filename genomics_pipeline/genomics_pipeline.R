@@ -5,6 +5,8 @@
 #clustering?
 
 #perform multiple sequence alignment
+#align the protein version of sequence data
+
 #load required library
 library(bio3d)
 
@@ -63,8 +65,8 @@ write.nexus.data(x = dat_aln_fa,
                  format = "dna")
 
 ##TO DO
-#model selection for phylo tree
-#phylo tree construction
+#model selection for phylo tree: ProtTest or jmodeltest?
+#phylo tree construction: PhyML, PhyloBayes, MRBAYES
 #assess model?
 #detect selective regimes with PAML
-#gene tree - species tree reconciliation?
+#gene tree - species tree reconciliation? Notung
