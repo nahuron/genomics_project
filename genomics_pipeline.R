@@ -29,6 +29,7 @@ dat_aln <- seqaln(aln=dat_raw, exefile = "/Applications/Phylogenetics/MUSCLE-3.8
 source("https://bioconductor.org/biocLite.R")
 biocValid()
 biocLite()
+
 #install and load multiple sequence alignment package
 biocLite("msa")
 #after the first install, you only ever need to call msa library command to load the package
@@ -61,12 +62,9 @@ write.nexus.data(x = dat_aln_fa,
                  file = "/Users/nicholashuron/Google Drive/Temple/BIOL_5403/project_data/HSF1_mRNA_all_aln.nex",
                  format = "dna")
 
+##TO DO
 #model selection for phylo tree
-
 #phylo tree construction
-
 #assess model?
-
 #detect selective regimes with PAML
-
 #gene tree - species tree reconciliation?
